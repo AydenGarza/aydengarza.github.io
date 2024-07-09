@@ -1,0 +1,31 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.App {
+    font-family: "Courier New";
+    background-color: #1B262C;
+    height: 100%;
+    color: #BBE1FA;
+    display: flex;
+    flex-direction: column;
+}
+/* 1B262C */
+.header{
+    display:flex;
+    background-color: #0F4C75;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+
+.header h1{
+    font-size: 70px;
+}
+
+.WIP{
+    text-align: center;
+}

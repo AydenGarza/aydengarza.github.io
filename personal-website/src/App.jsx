@@ -1,10 +1,11 @@
 import './App.css';
-import './header.jsx'
+import Header from './header.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header></header>
+      <Header className="header"></Header>
+      <h1 className="WIP">This website is a work in progress!</h1>
     </div>
   );
 }
