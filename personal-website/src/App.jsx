@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Header className="header"></Header>
-      <h1 className="WIP">This website is a work in progress!</h1>
+      <h1 className="WIP">This website is a work in progress! More updates coming soon.</h1>
     </div>
   );
 }

@@ -12,7 +12,7 @@ html, body, #root {
     display: flex;
     flex-direction: column;
 }
-/* 1B262C */
+
 .header{
     display:flex;
     background-color: #0F4C75;
