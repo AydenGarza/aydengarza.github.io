@@ -12,36 +12,3 @@ html, body, #root {
     display: flex;
     flex-direction: column;
 }
-
-.header{
-    display:flex;
-    background-color: #FCF8F3;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.header ul{
-    list-style-type: none;
-    display: flex;
-}
-
-.header a{
-    margin-right: 20px;
-    font-size: 22px;
-    font-weight:bold;
-    text-decoration: none;
-    color:inherit;
-}
-
-a:visited {
-    color:inherit;
-}
-a:hover {
-    color:#3282B8;
-}
-
-.WIP{
-    text-align: center;
-}
-

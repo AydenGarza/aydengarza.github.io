@@ -1,0 +1,11 @@
+.greeting{
+    text-align: center;
+    margin:0px;
+}
+
+
+.content{
+    border: 1px green;
+    border-style: solid;
+    text-align: center;
+}

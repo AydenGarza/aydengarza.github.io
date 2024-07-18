@@ -1,0 +1,29 @@
+.PageHeader{
+    display:flex;
+    background-color: #FCF8F3;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+}
+
+.PageHeader ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.PageHeader a{
+    margin-right: 60px;
+    font-size: 22px;
+    font-weight:bold;
+    text-decoration: none;
+    color:inherit;
+}
+a{
+    transition: color 0.3s ease;
+}
+a:visited {
+    color:inherit;
+}
+a:hover {
+    color:#3282B8;
+}

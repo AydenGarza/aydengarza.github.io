@@ -1,21 +1,24 @@
+import {Link} from 'react-router-dom'
+import PageHeaderStyling from './Header.module.css'
+
 function Header( {className}){
-    return<div className={className}>
+    return<div className={PageHeaderStyling.PageHeader}>
             <ul>
-                <a href="https://amazon.com">
+                <Link to="/home">
                     <li>
                         Home
                     </li>
-                </a>
-                <a href="https://apple.com">
+                </Link>
+                <Link to="/about">
                     <li>
                         About
                     </li>
-                </a>
-                <a href="https://google.com">
+                </Link>
+                <Link to="/projects">
                     <li>
                         Projects
                     </li>
-                </a>
+                </Link>
             </ul>
         </div>
 }
