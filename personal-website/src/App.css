@@ -6,26 +6,42 @@ html, body, #root {
 
 .App {
     font-family: "Courier New";
-    background-color: #1B262C;
+    background-color: #FCF8F3;
     height: 100%;
-    color: #BBE1FA;
+    color: black;
     display: flex;
     flex-direction: column;
 }
 
 .header{
     display:flex;
-    background-color: #0F4C75;
+    background-color: #FCF8F3;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 20vh;
 }
 
-.header h1{
-    font-size: 70px;
+.header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.header a{
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight:bold;
+    text-decoration: none;
+    color:inherit;
+}
+
+a:visited {
+    color:inherit;
+}
+a:hover {
+    color:#3282B8;
 }
 
 .WIP{
     text-align: center;
 }
+

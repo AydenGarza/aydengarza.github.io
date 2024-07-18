@@ -1,13 +1,19 @@
 import './App.css';
-import Header from './header.jsx'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <div className="App">
-      <Header className="header"></Header>
-      <h1 className="WIP">This website is a work in progress! More updates coming soon.</h1>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element = {<Home></Home>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
+//npm run deploy to update the site
