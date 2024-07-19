@@ -5,7 +5,25 @@
 
 
 .content{
-    border: 1px green;
-    border-style: solid;
+    /* border: 1px green;
+    border-style: solid; */
     text-align: center;
+    margin: 10px;
+    
+}
+
+.contentContainer {
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #ebeff4;
+}
+
+.pageContainer {
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
 }

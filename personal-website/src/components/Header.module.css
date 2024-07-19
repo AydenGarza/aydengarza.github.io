@@ -1,6 +1,6 @@
 .PageHeader{
     display:flex;
-    background-color: #FCF8F3;
+    background-color: #f2f3f8;
     justify-content: right;
     align-items: center;
     text-align: center;
@@ -9,6 +9,7 @@
 .PageHeader ul{
     list-style-type: none;
     display: flex;
+    padding: 0.5rem;
 }
 
 .PageHeader a{
@@ -25,5 +26,14 @@ a:visited {
     color:inherit;
 }
 a:hover {
-    color:#3282B8;
+    color:#8aa2ff;
+}
+
+/*I have to fix the size of my name in the top left*/
+.Name{
+    font-size: 35px;
+    width: 100%;
+    text-align: left;
+    padding-left: 2rem;
+    font-weight: bold;
 }

@@ -5,7 +5,7 @@ function Projects({className}){
     return <div className={className}>
         <Header className="header"></Header>
         <h1>
-            Projects idk lolllll
+            Projects page
         </h1>
     </div>
 }

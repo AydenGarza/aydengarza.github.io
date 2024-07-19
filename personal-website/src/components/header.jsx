@@ -3,6 +3,7 @@ import PageHeaderStyling from './Header.module.css'
 
 function Header( {className}){
     return<div className={PageHeaderStyling.PageHeader}>
+        <div className={PageHeaderStyling.Name}><Link to="/home">Ayden Garza</Link></div>
             <ul>
                 <Link to="/home">
                     <li>

@@ -6,7 +6,7 @@ html, body, #root {
 
 .App {
     font-family: "Courier New";
-    background-color: #FCF8F3;
+    background-color: #f2f3f8;
     height: 100%;
     color: black;
     display: flex;

@@ -5,7 +5,7 @@ function About(){
     return <>
         <Header className="header"></Header>
         <h1 className={AboutPageStyle.aboutTitle}>
-            About page ig lol
+            About page
         </h1>
     </>
 }
