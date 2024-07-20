@@ -1,6 +1,5 @@
 .greeting{
     text-align: center;
-    margin:0px;
 }
 
 
@@ -8,22 +7,18 @@
     /* border: 1px green;
     border-style: solid; */
     text-align: center;
-    margin: 10px;
+    margin: 1em;
+    font-size: 24px;
     
-}
-
-.contentContainer {
-    width: 95%;
-    height: 90%;
-    border-radius: 15px;
-    background-color: #ebeff4;
 }
 
 .pageContainer {
     height: 100%;
     width:100%;
-    justify-content: center;
     display:flex;
-    align-items: center;
+    justify-content: center;
+}
 
+.contentContainer{
+    width:65%;
 }

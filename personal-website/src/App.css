@@ -5,10 +5,14 @@ html, body, #root {
   }
 
 .App {
-    font-family: "Courier New";
+    font-family: "Verdana";
     background-color: #f2f3f8;
     height: 100%;
     color: black;
     display: flex;
     flex-direction: column;
 }
+
+/* Arial
+Verdana
+Helvetica */

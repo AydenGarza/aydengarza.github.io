@@ -21,4 +21,5 @@ function App() {
 
 export default App;
 
-//npm run deploy to update the site
+//npm run deploy => deploy to GH pages
+//npm start => development server

@@ -13,7 +13,7 @@
 }
 
 .PageHeader a{
-    margin-right: 60px;
+    margin-right: 4.5rem;
     font-size: 22px;
     font-weight:bold;
     text-decoration: none;
@@ -30,7 +30,7 @@ a:hover {
 }
 
 /*I have to fix the size of my name in the top left*/
-.Name{
+#Name{
     font-size: 35px;
     width: 100%;
     text-align: left;
