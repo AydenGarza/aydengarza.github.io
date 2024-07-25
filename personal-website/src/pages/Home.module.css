@@ -13,6 +13,9 @@
     /* background-color:blueviolet; */
     padding:0;
 }
+.content a {
+    text-decoration: none;    
+}
 
 .pageContainer {
     height: 100%;

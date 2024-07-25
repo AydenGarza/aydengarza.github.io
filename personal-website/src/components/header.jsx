@@ -4,7 +4,7 @@ import logo from '../pages/icons/site_logo.png'
 
 function Header( {className}){
     return<div className={PageHeaderStyling.PageHeader}>
-        <div className={PageHeaderStyling.LogoContainer}><a href="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></a></div>
+        <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
             <ul>
                 <Link to="/home">
                     <li>
