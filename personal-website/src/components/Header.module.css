@@ -2,7 +2,6 @@
     display:flex;
     background-color: #f2f3f8;
     justify-content: right;
-    align-items: center;
     text-align: center;
 }
 
@@ -14,7 +13,7 @@
 
 .PageHeader a{
     margin-right: 4.5rem;
-    font-size: 22px;
+    font-size: 26px;
     font-weight:bold;
     text-decoration: none;
     color:inherit;
@@ -30,10 +29,15 @@ a:hover {
 }
 
 /*I have to fix the size of my name in the top left*/
-#Name{
+.LogoContainer{
     font-size: 35px;
     width: 100%;
     text-align: left;
     padding-left: 2rem;
     font-weight: bold;
+}
+
+.Logo{
+    height: 125px;
+    width:125px;
 }
