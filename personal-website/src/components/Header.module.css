@@ -72,8 +72,8 @@ a:hover {
     }
     
     .Logo{
-        height: 100px;
-        width:100px;
+        height: 90px;
+        width:90px;
     }
 
     .PageHeader ul{
@@ -84,7 +84,7 @@ a:hover {
 
     .PageHeader a{
         margin-right: 3rem;
-        font-size: 12px;
+        font-size: 16px;
         font-weight:bold;
         text-decoration: none;
         color:inherit;
