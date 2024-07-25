@@ -1,5 +1,7 @@
 .greeting{
     text-align: center;
+    /* background-color: aquamarine; */
+    padding:0;
 }
 
 
@@ -7,9 +9,9 @@
     /* border: 1px green;
     border-style: solid; */
     text-align: center;
-    margin: 1em;
     font-size: 24px;
-    
+    /* background-color:blueviolet; */
+    padding:0;
 }
 
 .pageContainer {
@@ -21,4 +23,22 @@
 
 .contentContainer{
     width:65%;
+}
+
+.SocialIcon{
+    width: 50px;
+    height:50px;
+}
+
+.IconList {
+    list-style-type: none;
+    display:flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    padding:0;
+}
+
+.IconList li {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
