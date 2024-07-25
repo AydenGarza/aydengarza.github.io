@@ -1,3 +1,7 @@
+.PageHeader{
+    width: 100%;
+}
+
 .greeting{
     text-align: center;
     /* background-color: aquamarine; */
@@ -59,3 +63,8 @@
     bottom:-0.25px;
 
 }
+
+.KeepTogether {
+    white-space: nowrap;
+    display: inline-block;
+  }

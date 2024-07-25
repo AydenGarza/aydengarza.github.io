@@ -54,3 +54,39 @@ a:hover {
     height: 125px;
     width:125px;
 }
+
+@media (max-width: 665px) {
+    .PageHeader a{
+        margin-right: 3rem;
+        font-size: 22px;
+        font-weight:bold;
+        text-decoration: none;
+        color:inherit;
+    }
+}
+
+@media (max-width:530px){
+    .LogoContainer{
+        width: 100%;
+        padding-left: 4rem;
+    }
+    
+    .Logo{
+        height: 100px;
+        width:100px;
+    }
+
+    .PageHeader ul{
+        list-style-type: none;
+        display: flex;
+        padding: 0rem;
+    }
+
+    .PageHeader a{
+        margin-right: 3rem;
+        font-size: 12px;
+        font-weight:bold;
+        text-decoration: none;
+        color:inherit;
+    }
+}
