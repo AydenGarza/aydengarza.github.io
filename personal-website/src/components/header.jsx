@@ -15,24 +15,26 @@ function Header( {className}){
     }
 
     return<div className={PageHeaderStyling.PageHeader}>
-        <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
-            <ul>
-                <Link to="/home" className={`${PageHeaderStyling.navLink} ${isActivePage('/home') ? PageHeaderStyling.activeNavLink : ''}`}>
-                    <li>
-                        Home
-                    </li>
-                </Link>
-                <Link to="/about" className={`${PageHeaderStyling.navLink} ${isActivePage('/about') ? PageHeaderStyling.activeNavLink : ''}`}>
-                    <li>
-                        About
-                    </li>
-                </Link>
-                <Link to="/projects" className={`${PageHeaderStyling.navLink} ${isActivePage('/projects') ? PageHeaderStyling.activeNavLink : ''}`}>
-                    <li>
-                        Projects
-                    </li>
-                </Link>
-            </ul>
+            <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
+                    <ul>
+                        <Link to="/home" className={`${PageHeaderStyling.navLink} ${isActivePage('/home') ? PageHeaderStyling.activeNavLink : ''}`}>
+                            <li>
+                                Home
+                            </li>
+                        </Link>
+                        <Link to="/about" className={`${PageHeaderStyling.navLink} ${isActivePage('/about') ? PageHeaderStyling.activeNavLink : ''}`}>
+                            <li>
+                                About
+                            </li>
+                        </Link>
+                        <Link to="/projects" className={`${PageHeaderStyling.navLink} ${isActivePage('/projects') ? PageHeaderStyling.activeNavLink : ''}`}>
+                            <li>
+                                Projects
+                            </li>
+                        </Link>
+                    </ul>
+                <div className = {PageHeaderStyling.burgerMenu}>
+            </div>
         </div>
 }
 

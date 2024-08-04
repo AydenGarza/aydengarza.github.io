@@ -55,7 +55,11 @@ a:hover {
     width:125px;
 }
 
-@media (max-width: 665px) {
+.burgerMenu {
+    position: relative;
+    left: 100px;
+}
+/* @media (max-width: 665px) {
     .PageHeader a{
         margin-right: 3rem;
         font-size: 22px;
@@ -89,4 +93,4 @@ a:hover {
         text-decoration: none;
         color:inherit;
     }
-}
+} */

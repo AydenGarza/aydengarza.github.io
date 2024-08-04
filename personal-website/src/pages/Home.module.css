@@ -93,3 +93,25 @@
   }
 
 
+@media (max-width:870px){
+
+    .pageContainer{
+        flex-direction: column;
+    }
+
+    .headShot{
+        width:400px;
+        height:400px;
+    }
+}
+
+@media (max-width:680px){
+    .headShot{
+        width:350px;
+        height:350px;
+    }
+
+    .contentContainer{
+        padding-bottom: 2em;
+    }
+}
