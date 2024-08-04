@@ -59,7 +59,8 @@ a:hover {
     position: relative;
     left: 100px;
 }
-/* @media (max-width: 665px) {
+
+@media (max-width: 665px) {
     .PageHeader a{
         margin-right: 3rem;
         font-size: 22px;
@@ -72,7 +73,7 @@ a:hover {
 @media (max-width:530px){
     .LogoContainer{
         width: 100%;
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     
     .Logo{
@@ -93,4 +94,4 @@ a:hover {
         text-decoration: none;
         color:inherit;
     }
-} */
+}
