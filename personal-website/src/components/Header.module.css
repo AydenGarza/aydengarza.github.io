@@ -13,7 +13,7 @@
 
 .PageHeader a{
     margin-right: 4.5rem;
-    font-size: 26px;
+    font-size: 1.75rem;
     font-weight:bold;
     text-decoration: none;
     color:inherit;
@@ -51,8 +51,8 @@ a:hover {
 }
 
 .Logo{
-    height: 125px;
-    width:125px;
+    height: 8rem;
+    width:8rem;
 }
 
 .burgerMenu {
@@ -73,12 +73,12 @@ a:hover {
 @media (max-width:530px){
     .LogoContainer{
         width: 100%;
-        padding-left: 2rem;
+        padding-left: 0.5rem;
     }
     
     .Logo{
-        height: 90px;
-        width:90px;
+        height: 6rem;
+        width:6rem;
     }
 
     .PageHeader ul{
