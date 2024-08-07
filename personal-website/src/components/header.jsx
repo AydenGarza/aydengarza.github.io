@@ -70,15 +70,28 @@ function Header( {className}){
             }
         }
 
+        function getHamMenuClass (poppedOut){
+            if (poppedOut){
+                return PageHeaderStyling.enabledHamburgerMenu;
+            }
+            else{
+                return PageHeaderStyling.disabledHamburgerMenu;
+            }
+        }
+
         return <div className={PageHeaderStyling.PageHeader}>
                     <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
-                    <div className = {PageHeaderStyling.burgerIcon} onClick={toggleMenu}>
+                    <div className = {getHamMenuClass(isPopoutActive)} onClick={toggleMenu}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
                     <div className = {getPopoutMenuClass(isPopoutActive)}>
-
+                        {/* <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Projects</li>
+                        </ul> */}
                     </div>
                 </div>
 
