@@ -26,6 +26,7 @@ function Header( {className}){
         return () => window.removeEventListener("resize", handleWindowResizing);
     }, []);
 
+
     function NavBarRegular({className}){
         return <div className={PageHeaderStyling.PageHeader}>
                     <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
@@ -53,9 +54,32 @@ function Header( {className}){
     
 
     function NavBarHamburger({className}){
+
+        const [isPopoutActive, togglePopout] = useState(false);
+
+        function toggleMenu () {
+            togglePopout(!isPopoutActive);
+        }
+
+        function getPopoutMenuClass(poppedOut){
+            if (poppedOut){
+                return PageHeaderStyling.enabledPopoutMenu;
+            }
+            else{
+                return PageHeaderStyling.disabledPoputMenu;
+            }
+        }
+
         return <div className={PageHeaderStyling.PageHeader}>
                     <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
-                    <h1>hamburger</h1>
+                    <div className = {PageHeaderStyling.burgerIcon} onClick={toggleMenu}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div className = {getPopoutMenuClass(isPopoutActive)}>
+
+                    </div>
                 </div>
 
     }
