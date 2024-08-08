@@ -50,9 +50,6 @@ function Header( {className}){
                 </div>
     }
 
-
-    
-
     function NavBarHamburger({className}){
 
         const [isPopoutActive, togglePopout] = useState(false);
@@ -79,6 +76,15 @@ function Header( {className}){
             }
         }
 
+        function getPopOutNavClass (poppedOut){
+            if (poppedOut){
+                return PageHeaderStyling.enabledPopOutNav;
+            }
+            else{
+                return PageHeaderStyling.disabledPopOutNav;
+            }
+        }
+
         return <div className={PageHeaderStyling.PageHeader}>
                     <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
                     <div className = {getHamMenuClass(isPopoutActive)} onClick={toggleMenu}>
@@ -87,10 +93,16 @@ function Header( {className}){
                         <span></span>
                     </div>
                     <div className = {getPopoutMenuClass(isPopoutActive)}>
-                        {/* <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Projects</li>
+                        {/* <ul className = {getPopOutNavClass(isPopoutActive)}>
+                            <li>
+                                Home
+                            </li>
+                            <li>
+                                About
+                            </li>
+                            <li>
+                                Projects
+                            </li>
                         </ul> */}
                     </div>
                 </div>
