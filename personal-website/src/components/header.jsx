@@ -91,6 +91,4 @@ function Header( {className}){
     return pageWidth > 870 ? <NavBarRegular className = {className}/> : <NavBarHamburger className = {className}/>
 }
 
-
-
 export default Header;
