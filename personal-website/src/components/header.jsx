@@ -58,53 +58,32 @@ function Header( {className}){
             togglePopout(!isPopoutActive);
         }
 
-        function getPopoutMenuClass(poppedOut){
-            if (poppedOut){
-                return PageHeaderStyling.enabledPopoutMenu;
-            }
-            else{
-                return PageHeaderStyling.disabledPoputMenu;
-            }
-        }
-
-        function getHamMenuClass (poppedOut){
-            if (poppedOut){
-                return PageHeaderStyling.enabledHamburgerMenu;
-            }
-            else{
-                return PageHeaderStyling.disabledHamburgerMenu;
-            }
-        }
-
-        function getPopOutNavClass (poppedOut){
-            if (poppedOut){
-                return PageHeaderStyling.enabledPopOutNav;
-            }
-            else{
-                return PageHeaderStyling.disabledPopOutNav;
-            }
-        }
-
         return <div className={PageHeaderStyling.PageHeader}>
                     <div className={PageHeaderStyling.LogoContainer}><Link to="/home"><img src={logo} alt="Ayden Garza" className = {PageHeaderStyling.Logo}/></Link></div>
-                    <div className = {getHamMenuClass(isPopoutActive)} onClick={toggleMenu}>
+
+
+                    <div className = {isPopoutActive ? PageHeaderStyling.enabledHamburgerMenu : PageHeaderStyling.disabledHamburgerMenu} onClick={toggleMenu}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                    <div className = {getPopoutMenuClass(isPopoutActive)}>
-                        {/* <ul className = {getPopOutNavClass(isPopoutActive)}>
+
+
+                    <div className = {isPopoutActive ? PageHeaderStyling.enabledPopoutMenu : PageHeaderStyling.disabledPoputMenu}>
+                        <ul className = {isPopoutActive ? PageHeaderStyling.enabledPopOutNav : PageHeaderStyling.disabledPopOutNav}>
                             <li>
-                                Home
+                                <Link to='/home' className = {PageHeaderStyling.burgerNavLink}>Home</Link>
                             </li>
                             <li>
-                                About
+                                <Link to='/about' className = {PageHeaderStyling.burgerNavLink}>About</Link>
                             </li>
                             <li>
-                                Projects
+                                <Link to='/projects' className = {PageHeaderStyling.burgerNavLink}>Projects</Link>
                             </li>
-                        </ul> */}
+                        </ul>
                     </div>
+
+
                 </div>
 
     }
