@@ -1,13 +1,15 @@
 import Header from '../components/Header.jsx'
 import ProjectsPageStyle from './Projects.module.css'
+import Footer from '../components/Footer.jsx';
 
-function Projects({className}){
-    return <div className={className}>
-        <Header className="header"></Header>
-        <h1>
-            Projects page
-        </h1>
-    </div>
+function Projects(){
+    return <>
+        <div className = {ProjectsPageStyle.pageContainer}>
+            <Header className="header"></Header>
+            <span>Projects Page</span>
+        </div>
+        <Footer></Footer>
+    </>
 }
 
 export default Projects

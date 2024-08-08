@@ -1,0 +1,32 @@
+.pageContainer{
+    width:100vw;
+    height:100vh;
+    overflow: auto;
+
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.headerQuestion{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.answer{
+    background-color: brown;
+}
+
+.questionAnswerBlock{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

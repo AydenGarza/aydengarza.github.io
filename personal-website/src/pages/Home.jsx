@@ -1,10 +1,10 @@
-import Header from '../components/Header.jsx'
-import HomePageStyle from './Home.module.css'
-import linkedInIcon from './icons/linkedinicon.png'
-import githubIcon from './icons/ghicon.png'
-import emailIcon from './icons/emailicon.png'
-import {Link} from 'react-router-dom'
-import headShot from './images/headshot.jpeg'
+import Header from '../components/Header.jsx';
+import HomePageStyle from './Home.module.css';
+import linkedInIcon from './icons/linkedinicon.png';
+import githubIcon from './icons/ghicon.png';
+import emailIcon from './icons/emailicon.png';
+import {Link} from 'react-router-dom';
+import headShot from './images/headshot.jpeg';
 
 function Home() {
     return <>
