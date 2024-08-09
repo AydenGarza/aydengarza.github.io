@@ -6,9 +6,11 @@ function Projects(){
     return <>
         <div className = {ProjectsPageStyle.pageContainer}>
             <Header className="header"></Header>
-            <span>Projects Page</span>
+            <div className={ProjectsPageStyle.contentContainer}>
+                <h1>Projects</h1>
+            </div>
+            <Footer></Footer>
         </div>
-        <Footer></Footer>
     </>
 }
 
