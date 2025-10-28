@@ -1,21 +1,66 @@
-.SocialIcon{
-    width: 3rem;
-    height:3rem;
+.footer {
+    margin-top: auto;
+    border-top: 1px solid #e5e5e5;
+    background: #ffffff;
 }
 
-.IconList {
-    list-style-type: none;
-    display:flex;
-    /* background-color: aqua; */
-    justify-content: center;
-    padding:0;
-    padding:2rem;
-    padding-bottom:1rem;
-    background-color: #f2f3f8;
-    margin:0;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
-.IconList li {
-    padding-left:1rem;
-    padding-right:1rem;
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.link {
+    font-size: 0.9rem;
+    color: #666666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #000000;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover {
+    color: #000000;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 0.85rem;
+    color: #999999;
+}
+
+@media (max-width: 480px) {
+    .links {
+        gap: 1.5rem;
+    }
+    
+    .link {
+        font-size: 0.85rem;
+    }
+    
+    .copyright {
+        font-size: 0.8rem;
+    }
 }
