@@ -7,6 +7,8 @@ import Thriftr from './pages/projects/Thriftr';
 import TCPMessaging from './pages/projects/TCPMessaging';
 import PortfolioWebsite from './pages/projects/PortfolioWebsite';
 import NeuralNetwork from './pages/projects/NeuralNetwork';
+import Microprocessor from './pages/projects/Microprocessor';
+import WildfirePrediction from './pages/projects/WildfirePrediction';
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/wildfire-prediction" element={<WildfirePrediction />} />
           <Route path="/projects/thriftr" element={<Thriftr />} />
           <Route path="/projects/tcp-messaging" element={<TCPMessaging />} />
+          <Route path="/projects/microprocessor" element={<Microprocessor />} />
           <Route path="/projects/portfolio-website" element={<PortfolioWebsite />} />
           <Route path="/projects/neural-network" element={<NeuralNetwork />} />
         </Routes>

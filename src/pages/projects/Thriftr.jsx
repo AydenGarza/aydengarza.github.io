@@ -38,10 +38,10 @@ function Thriftr() {
                         </p>
                         <p>
                             The image analysis pipeline leverages <strong>Hugging Face BLIP</strong> for 
-                            automatic image captioning to identify clothing items and <strong>Tesseract OCR</strong> 
+                            automatic image captioning to identify clothing items and <strong>Tesseract OCR </strong> 
                             for brand recognition from labels and tags. This AI-driven analysis is combined 
                             with live marketplace data collected using <strong>Playwright</strong> for web 
-                            scraping.
+                            scraping (responsibly).
                         </p>
                         <p>
                             The pricing engine integrates multiple data sources to provide accurate, real-time 
