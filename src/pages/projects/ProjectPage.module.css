@@ -83,8 +83,9 @@
 .section p {
     font-size: 1.0625rem;
     line-height: 1.8;
-    color: #333333;
+    color: #1a1a1a;
     margin: 0;
+    font-weight: 500;
 }
 
 .list {
@@ -99,9 +100,10 @@
 .list li {
     font-size: 1.0625rem;
     line-height: 1.8;
-    color: #333333;
+    color: #1a1a1a;
     padding-left: 1.5rem;
     position: relative;
+    font-weight: 500;
 }
 
 .list li::before {

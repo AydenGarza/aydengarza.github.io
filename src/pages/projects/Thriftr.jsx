@@ -12,7 +12,7 @@ function Thriftr() {
                     back to projects
                 </Link>
                 
-                <h1 className={ProjectPageStyle.title}>Thriftr</h1>
+                <h1 className={ProjectPageStyle.title}>thriftr</h1>
                 <p className={ProjectPageStyle.subtitle}>
                     clothing price estimation app | 5.2025 - present
                 </p>
