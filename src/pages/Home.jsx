@@ -10,22 +10,23 @@ function Home() {
             <main className={HomePageStyle.main}>
                 <div className={HomePageStyle.hero}>
                     <h1 className={HomePageStyle.title}>
-                        Hi, I'm Ayden.
+                        hi, i'm ayden
                     </h1>
                     <p className={HomePageStyle.subtitle}>
-                        Computer Science Student & Aspiring Software Engineer
+                        cs @ colorado state ; aspiring software engineer
                     </p>
                 </div>
                 
                 <div className={HomePageStyle.content}>
                     <p className={HomePageStyle.text}>
-                        I'm a computer science student at Colorado State University with a passion for 
-                        software engineering, mathematics, and data science. I love building things that 
-                        solve real-world problems and learning new technologies along the way.
+                        I'm a computer science student at Colorado State University (4.0 GPA) passionate about 
+                        building full-stack applications, optimizing distributed systems, and exploring machine 
+                        learning. I recently interned at OHEL Technologies, working with Python, Elasticsearch, 
+                        and REST APIs to build data pipelines for production systems.
                     </p>
                     <p className={HomePageStyle.text}>
-                        From neural networks to web applications, I enjoy diving deep into how things work. 
-                        Recently, I've been exploring machine learning and modern web development.{' '}
+                        From neural networks built from scratch to distributed TCP messaging systems, I love 
+                        diving deep into how things work.{' '}
                         <Link to="/about" className={HomePageStyle.link}>
                             Learn more about me
                         </Link>

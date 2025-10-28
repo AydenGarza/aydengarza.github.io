@@ -17,7 +17,7 @@ function Header({ className }) {
         <nav className={PageHeaderStyling.header}>
             <div className={PageHeaderStyling.container}>
                 <Link to="/home" className={PageHeaderStyling.logo}>
-                    Ayden Garza
+                    ayden garza
                 </Link>
                 <ul className={PageHeaderStyling.nav}>
                     <li>
@@ -25,7 +25,7 @@ function Header({ className }) {
                             to="/home" 
                             className={`${PageHeaderStyling.navLink} ${isActivePage('/home') ? PageHeaderStyling.active : ''}`}
                         >
-                            Home
+                            home
                         </Link>
                     </li>
                     <li>
@@ -33,7 +33,7 @@ function Header({ className }) {
                             to="/about" 
                             className={`${PageHeaderStyling.navLink} ${isActivePage('/about') ? PageHeaderStyling.active : ''}`}
                         >
-                            About
+                            about
                         </Link>
                     </li>
                     <li>
@@ -41,7 +41,7 @@ function Header({ className }) {
                             to="/projects" 
                             className={`${PageHeaderStyling.navLink} ${isActivePage('/projects') ? PageHeaderStyling.active : ''}`}
                         >
-                            Projects
+                            projects
                         </Link>
                     </li>
                 </ul>

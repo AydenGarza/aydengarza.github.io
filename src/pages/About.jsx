@@ -7,46 +7,64 @@ function About() {
         <div className={AboutPageStyle.page}>
             <Header />
             <main className={AboutPageStyle.main}>
-                <h1 className={AboutPageStyle.pageTitle}>About</h1>
+                <h1 className={AboutPageStyle.pageTitle}>about</h1>
                 
                 <section className={AboutPageStyle.section}>
-                    <h2 className={AboutPageStyle.sectionTitle}>Who I Am</h2>
+                    <h2 className={AboutPageStyle.sectionTitle}>who i am</h2>
                     <div className={AboutPageStyle.content}>
                         <p>
-                            I am a computer science student and aspiring software engineer with a passion 
-                            for building innovative solutions.
+                            I'm a computer science student at Colorado State University with a 4.0 GPA, 
+                            expected to graduate in May 2027. I'm passionate about building innovative software 
+                            solutions that solve real-world problems.
                         </p>
                         <p>
-                            My love for mathematics and the significant role computers have played in my 
-                            life led me to study computer science at Colorado State University. I'm currently 
-                            a sophomore with a minor in machine learning. Recently, I had the opportunity to 
-                            apply my knowledge and skills by interning at OHEL Technologies as a software engineer.
+                            My love for mathematics and technology led me to pursue computer science with a focus 
+                            on machine learning, distributed systems, and full-stack development. I recently completed 
+                            a software engineering internship at OHEL Technologies, where I worked on data pipelines, 
+                            Elasticsearch optimization, and REST API integration.
                         </p>
                         <p>
-                            When I'm not studying or programming, I love spending time with my family and 4 dogs, 
-                            going to the movies with friends, and participating in educational volunteer work.
+                            When I'm not coding or studying, I love spending time with my family and 4 dogs, 
+                            going to the movies with friends, and participating in educational volunteer work. 
+                            I'm also actively involved in SEO EDGE, a professional development program focused 
+                            on technical skills and career growth.
                         </p>
                     </div>
                 </section>
 
                 <section className={AboutPageStyle.section}>
-                    <h2 className={AboutPageStyle.sectionTitle}>What I Do</h2>
+                    <h2 className={AboutPageStyle.sectionTitle}>what i do</h2>
                     <div className={AboutPageStyle.content}>
                         <p>
-                            In my three semesters studying computer science, I've gained solid foundations in 
-                            core areas like object-oriented programming, data structures, algorithms, and data 
-                            analysis. This fourth semester during Spring 2025, I'm taking Algorithms, Computer 
-                            Organization, Fundamentals of C++, and Software Development with Java. These classes 
-                            are helping me use foundational computer science skills to tackle real-world problems 
-                            in software engineering and computing.
+                            My coursework at CSU has given me solid foundations in Data Structures, Algorithms, 
+                            Software Development, Software Engineering, Distributed Systems, Machine Learning, 
+                            Operating Systems, and Linear Algebra for Data Scientists. I've also explored Virtual 
+                            Worlds and Computer Systems Foundations, giving me a well-rounded technical background.
                         </p>
                         <p>
-                            Outside of my studies, I look for opportunities to learn more about software engineering. 
-                            I build projects that help me learn new technologies or solve real-world problems. I also 
-                            look to sharpen my skills by using them in professional working environments. I had such 
-                            an opportunity this past Spring 2024 semester as a software engineering intern at OHEL 
-                            Technologies, where I used Python and the ELK stack to work on an AI application with a 
-                            team of other software engineers.
+                            During my internship at OHEL Technologies (January-May 2024), I developed data collection 
+                            tools in Python, built data pipelines integrating multiple e-commerce APIs with Elasticsearch, 
+                            and optimized cloud database architecture. I worked extensively with REST APIs, Elastic Cloud, 
+                            and Kibana to process and normalize data from various sources.
+                        </p>
+                        <p>
+                            I'm proficient in Python, Java, C++, JavaScript, C#, and SQL, with hands-on experience 
+                            in React, Linux, PyTorch, Spark, Hadoop, and cloud technologies. I practice Agile Software 
+                            Engineering, Test Driven Development, and CI/CD workflows. Currently, I'm exploring agentic 
+                            AI and advanced prompt engineering while building full-stack applications.
+                        </p>
+                    </div>
+                </section>
+
+                <section className={AboutPageStyle.section}>
+                    <h2 className={AboutPageStyle.sectionTitle}>professional development</h2>
+                    <div className={AboutPageStyle.content}>
+                        <p>
+                            Since June 2024, I've been participating in SEO EDGE through SEO Career, where I receive 
+                            coaching and instruction to achieve targeted interview, technical, and professional goals. 
+                            The program focuses on business fundamentals, industry-specific training, and developing 
+                            the technical skills and institutional knowledge needed to compete successfully for 
+                            internship opportunities.
                         </p>
                     </div>
                 </section>
