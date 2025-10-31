@@ -19,14 +19,11 @@ function Home() {
                 
                 <div className={HomePageStyle.content}>
                     <p className={HomePageStyle.text}>
-                        I'm a computer science student at Colorado State University (4.0 GPA) passionate about 
-                        building full-stack applications, optimizing distributed systems, and exploring machine 
-                        learning. I recently interned at OHEL Technologies, working with Python, Elasticsearch, 
-                        and REST APIs to build data pipelines for production systems.
+                        I'm a computer science student at Colorado State University. My studies concentrate in ML and AI, but I also have an unrequited love for embedded software and all things hardware-adjacent.
+                        I hope to work as a software engineer in an ML or embedded role in the future, and am currently looking for an internship to help me towards that end.
+
                     </p>
                     <p className={HomePageStyle.text}>
-                        From neural networks built from scratch to distributed TCP messaging systems, I love 
-                        diving deep into how things work.{' '}
                         <Link to="/about" className={HomePageStyle.link}>
                             Learn more about me
                         </Link>
